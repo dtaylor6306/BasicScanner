@@ -1,0 +1,16 @@
+
+BEGIN
+My name is john, hello. Me + + () -- This is my comment and Idc:
+ 1     42 a2 2a
+-
+()
+=
+:=
+WRITE()
+READ
+REA
+WRIawada
+this is something; this is the new stuff
+next line
+
+END
