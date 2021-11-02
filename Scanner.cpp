@@ -1,3 +1,7 @@
+//Dylan Taylor
+//CSCI 330
+//Project 4
+
 #include <iostream>
 #include <string>
 #include <fstream>
@@ -15,7 +19,6 @@ using namespace std;
 [x] write
 [x] IntLiteral
 [x] ID  isalpha(line[i]) && 
-[] EOF   -----maybe done?
 
 \t ==  9
 \n ==  10
@@ -24,7 +27,7 @@ blank space ==  32
 */
 
 int main(int argc,char ** argv){
-    ifstream in(argv[1]);
+    ifstream in("input.txt");
     char ch;
     string line;
     string newstring;
@@ -48,7 +51,7 @@ int main(int argc,char ** argv){
             }
             else if(line[i] == '-'){
                 if(line[i+1] == '-'){
-                    cout << "Comment!!!!" << endl;
+                    //cout << "Comment!!!!" << endl;
                     break;
                 }
                 else{
